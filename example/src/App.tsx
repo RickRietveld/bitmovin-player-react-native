@@ -69,6 +69,10 @@ export default function App() {
         routeName: 'BasicPlayback',
       },
       {
+        title: 'On air playback',
+        routeName: 'CustomPlaybackForm',
+      },
+      {
         title: 'Basic Analytics',
         routeName: 'BasicAnalytics',
       },

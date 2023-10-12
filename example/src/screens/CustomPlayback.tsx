@@ -20,6 +20,9 @@ const CustomPlayback: React.FC<CustomPlaybackProps> = ({ route }) => {
       isCastEnabled: false,
     },
   });
+  
+  console.log("LICENSE_KEY: ", route.params?.licenseKey);
+  console.log("STREAM_URL: ", route.params?.streamURL);
 
   useFocusEffect(
     useCallback(() => {
